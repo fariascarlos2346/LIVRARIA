@@ -27,16 +27,15 @@ header {
 }
 
 .image {
-    width: 600px;
-    height: 400px;
-    margin-left: 550px;
+    width: 650px;
+    height: 430px;
+    margin-left: 800px;
     display: inline-block;
 }
 
 main {
-    display: inline-block;
-    margin-left: 150px;
-    width: 330px;
+    margin-left: 100px;
+    width: 630px;
     height: 80px;
 }
 
@@ -44,7 +43,31 @@ h1 {
     font-family: 'Righteous', sans-serif;
     font-weight: 900;
     font-size: 100px;
-    line-height: 100px;
+    line-height: 122px;
     color: #464646;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 550px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #FF5E43;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
 }
 
